@@ -46,7 +46,7 @@ translateBtn.addEventListener("click", () => {
     });
 });
 
-icons.forEach(icon => {
+icons.forEach(icon => { 
     icon.addEventListener("click", ({ target }) => {
         if (!fromText.value || !toText.value) return;
         if (target.classList.contains("fa-copy")) {
